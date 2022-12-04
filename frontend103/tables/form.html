@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სარეგისტრაციო ფორმა</title>
+</head>
+
+<body>
+
+    <form action="action_page.php">
+        <div class="container">
+            <h1>რეგისტრაცია</h1>
+            <p>შეავსეთ ეს ფორმა აქაუნთზე შესასვლელად</p>
+            <hr>
+
+            <label for="იმეილი"><b>იმეილი</b></label>
+            <input type="text" placeholder="შეიყვანეთ იმეილი" name="იმეილი" id="email" required>
+
+            <label for="psw"><b>პაროლი</b></label>
+            <input type="password" placeholder="შეიყვანეთ პაროლი" name=" psw " id="psw " required>
+
+            <label for="psw-repeat "><b>გაიმეორეთ პაროლი</b></label>
+            <input type="password " placeholder="გაიმეორეთ პაროლი " name="psw-repeat " id="psw-repeat " required>
+            <hr>
+
+            <p>აქაუნთის შექმნისას თქვენ ეთანხმებით ჩვენს <a href="# ">ხელშეკრულებას</a>.</p>
+            <button type="submit " class="registerbtn ">Register</button>
+        </div>
+
+        <div class="container შესვლა ">
+            <p>უკვე გაქვს აქაუნთი? <a href="# ">შესვლა</a>.</p>
+        </div>
+    </form>
+</body>
+
+</html>
