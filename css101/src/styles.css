@@ -1,0 +1,187 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    padding: 15px;
+}
+.redBlock{
+    background-color: red;
+}
+.blueBlock{
+    background-color: blue;
+}
+.yellowBlock{
+    background-color: yellow;
+}
+.purpleBlock{
+    background-color: purple; 
+}
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* h1,h2,h3{
+    text-decoration: underline;
+    color: red;
+} */
+
+#header {
+    height: 80px;
+    background-color: #ccc;
+    width: 100%;
+    padding: 15px;
+}
+
+#content {
+    height: 80px;
+    background-color: #eee;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#footer {
+    height: 80px;
+    background-color: #ccc;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+/* p{
+    color: green;
+} */
+
+#main p:nth-child(2) {
+    color: black;
+    font-size: 15px;
+}
+
+#footernew p:nth-child(2) {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    text-decoration: none;
+}
+
+.hover {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.hover:hover {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+
+/* p{
+    line-height: 100%;
+    text-align: left;
+    text-indent: 35px;
+} */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.nav_container {
+    width: 500px;
+}
+
+.list_container {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_container li {
+    color: #9893A3;
+}
+
+li.active {
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #9E99FF
+}
+
+.login {
+    width: 102px;
+    height: 51px;
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #6C63FF;
+}
+
+.get_started {
+    width: 102px;
+    height: 51px;
+    border-radius: 2px;
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+}
+
+.logo_container {
+    width: 80px;
+    height: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+#banner {
+    margin-top: 68px;
+}
+
+.mian_header {
+    font-size: 86px;
+}
+
+p {
+    font-size: 20px;
+    color: #9893A3;
+}
+
+.banner_content__container p,
+button {
+    margin-top: 30px;
+}
+
+#clients {
+    margin-top: 68px;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+#section2 {
+    margin-top: 220px;
+}
