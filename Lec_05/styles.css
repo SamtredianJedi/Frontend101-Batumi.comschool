@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "myFirstFont";
+    src: url("");
+}
+
+@import url(./fonts.css);
+.banner {
+    width: 250px;
+    height: 250px;
+    background-image: url();
+    background-color: black;
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*cover - responsiuloba gadidebis dros */
+    background-position: bottom right;
+}
+
+.text-white {
+    font-family: "Zen Dots";
+    color: black;
+}
+
+.shadow {
+    width: 20px;
+    height: 100px;
+    margin: 20px;
+    border: 1px solid #eee;
+    box-shadow: 1px 2px 2px 4px rgba(0, 0, 0, 1) inset;
+    -webkit-box-shadow: 10px 27px 0px -1px rgba(0, 0, 0, 1) inset;
+    -moz-box-shadow: 10px 27px 0px -1px rgba(0, 0, 0, 1) inset;
+    backround: linear-gradient();
+}
+
+#start {
+    height: 100vh;
+    width: 100%;
+}

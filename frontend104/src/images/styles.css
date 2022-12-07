@@ -1,3 +1,29 @@
 html {
     scroll-behavior: smooth;
 }
+
+.row {
+    display: flex;
+}
+
+.square {
+    height: 240px;
+    width: 150px;
+    background-color: #C4C4C4;
+}
+
+.square2 {
+    height: 240px;
+    width: 150px;
+    background-color: #2222ed;
+}
+
+.square3 {
+    height: 240px;
+    width: 150px;
+    background-color: #C4C4C4;
+}
+
+.allign-center {
+    text-align: center;
+}

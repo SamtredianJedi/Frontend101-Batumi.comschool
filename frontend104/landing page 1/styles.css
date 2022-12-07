@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 400px;
+}
+
+li {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+li.home {
+    color: black;
+    header-bottom: 4px solid #9e99ff;
+    padding-bottom: 5px;
+}
