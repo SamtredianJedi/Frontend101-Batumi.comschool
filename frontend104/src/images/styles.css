@@ -4,6 +4,7 @@ html {
 
 .row {
     display: flex;
+    justify-content: center;
 }
 
 .square {
