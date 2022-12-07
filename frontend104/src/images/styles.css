@@ -10,21 +10,42 @@ html {
 .square {
     height: 240px;
     width: 150px;
-    background-color: #C4C4C4;
+    margin: 40px;
+    background-color: #ECEBFF;
 }
 
 .square2 {
-    height: 240px;
-    width: 150px;
-    background-color: #2222ed;
+    height: 300px;
+    width: 200px;
+    background-color: #6C63ff;
 }
 
 .square3 {
     height: 240px;
     width: 150px;
-    background-color: #C4C4C4;
+    margin: 50px;
+    background-color: #ECEBFF;
 }
 
 .allign-center {
+    text-align: center;
+}
+
+.button1 {
+    display: flex;
+    padding: 10px 24px;
+}
+
+.button2 {
+    display: flex;
+    padding: 10px 24px;
+}
+
+.button3 {
+    display: flex;
+    padding: 10px 24px;
+}
+
+.p {
     text-align: center;
 }
