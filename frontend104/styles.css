@@ -1,0 +1,149 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.nav_container {
+    width: 500px;
+}
+
+.list_container {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_container li {
+    color: #9893A3;
+    margin-left: 55px;
+}
+
+li.active {
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #9E99FF;
+}
+
+.Login {
+    width: 102px;
+    height: 51px;
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #6C63FF;
+}
+
+.Get_Started {
+    width: 102px;
+    height: 51px;
+    border-radius: 2px;
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+}
+
+.logo_container {
+    width: 78px;
+    height: 30px;
+}
+
+.img {
+    width: 100%;
+}
+
+#Banner {
+    margin-top: 68px;
+}
+
+.main-header {
+    font-size: 86px;
+}
+
+p {
+    font-size: 20px;
+    color: #9893A3;
+}
+
+.banner_container p,
+button {
+    margin-top: 30px;
+}
+
+#costumers {
+    margin-top: 68px;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+#section_02 {
+    margin-top: 220px;
+}
+
+#section_03 {
+    margin-top: 220px;
+}
+
+#section_04 {
+    margin-right: 120px;
+    margin-top: 220px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    margin-bottom: 300px;
+    height: 240px;
+    width: 160px;
+    margin: 40px;
+    background-color: #ECEBFF;
+}
+
+.square2 {
+    margin-bottom: 300px;
+    height: 300px;
+    width: 200px;
+    background-color: #6C63ff;
+}
+
+.square3 {
+    margin-bottom: 300px;
+    height: 240px;
+    width: 160px;
+    margin: 50px;
+    background-color: #ECEBFF;
+}
+
+.allign-center {
+    text-align: center;
+}
+
+.button1 {
+    display: flex;
+    padding: 10px 24px;
+}
+
+.button2 {
+    display: flex;
+    padding: 10px 24px;
+}
+
+.button3 {
+    display: flex;
+    padding: 10px 24px;
+}
+
+.p {
+    text-align: center;
+}
