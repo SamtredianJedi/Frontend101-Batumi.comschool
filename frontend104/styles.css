@@ -34,7 +34,7 @@ li.active {
     border-radius: 2px;
     background-color: transparent;
     color: #6C63FF;
-    margin-right: 45px;
+    margin-left: 45px;
 }
 
 .Get_Started {
@@ -151,7 +151,7 @@ html {
 }
 
 .btn_container {
-    margin-right: 30px;
+    margin-right: 45px;
 }
 
 .logos div {
