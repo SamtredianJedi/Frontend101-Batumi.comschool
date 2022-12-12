@@ -90,6 +90,39 @@
     }
 }
 
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-size: 101px;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
 
 /*<div class="wheel">
             <img src="./src/images/wheel.png" class="back-wheel">
