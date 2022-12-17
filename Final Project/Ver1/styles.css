@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main-width {
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.heading-01 {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./src/images/anon1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header {
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logo i {
+    height: 55px;
+    width: 55px;
+    background: transparent;
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav .ham {
+    width: 35px;
+    height: 24px;
+    right: 3%;
+    top: 60px;
+    z-index: 5;
+    background: white;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+
+nav .ham span {
+    display: block;
+    width: 100%;
+    height: 3%;
+    background: #2ecc71;
+    transition: 3s;
+    transition-property: trasform, opacity;
+}
+
+nav .ham span:nth-child(2) {
+    margin: 7px 0px;
+}
+
+nav .nav-list {
+    list-style: none;
+}
+
+nav .nav-list li {
+    display: inline-block;
+}
+
+nav .nav-list li a {
+    display: inline-block;
+    color: #eee;
+    margin-left: 55px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav .nav-list li:not(:last-child) a:hover {
+    color: #2ecc71;
+    transition: .4s;
+}
