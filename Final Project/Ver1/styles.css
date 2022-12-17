@@ -93,3 +93,106 @@ nav .nav-list li:not(:last-child) a:hover {
     color: #2ecc71;
     transition: .4s;
 }
+
+nav .nav-list li.btn a {
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #2ecc71;
+    padding: 9px 28px;
+    border-radius: 30px;
+    line-height: 1.3;
+    color: #2ecc71;
+    font-weight: 500;
+}
+
+nav .nav-list li.btn:hover a {
+    background-color: #2ecc71;
+    color: #eee;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+
+.container {
+    padding-top: 190px;
+}
+
+.container text {
+    margin-bottom: 40px;
+}
+
+.container .text h1 {
+    color: white;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0 20px;
+}
+
+span {
+    color: #2ecc71;
+}
+
+.container .text h3 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #eee;
+}
+
+.container .text p {
+    width: 440px;
+    max-width: 100%;
+    color: #eee;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.social a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 35px;
+}
+
+.social a:hover {
+    transform: scale(1.1);
+    background: #2ecc71;
+    transition: .4s;
+}
+
+.container .text button {
+    color: #eee;
+    background: #2ecc71;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 30px;
+    border: 2px solid #2ecc71;
+    border-radius: 30px;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.container .text button:hover {
+    background: transparent;
+    border: 2px solid #2ecc71;
+    transition: .4s;
+}
+
+.bottom {
+    margin-top: 143px;
+    padding-bottom: 40px;
+}
+
+.bottom p {
+    color: #eee;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
