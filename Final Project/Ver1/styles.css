@@ -187,7 +187,7 @@ span {
 }
 
 .bottom {
-    margin-top: 143px;
+    margin-top: 243px;
     padding-bottom: 40px;
 }
 
@@ -195,4 +195,63 @@ span {
     color: #eee;
     letter-spacing: 2px;
     font-size: 15px;
+}
+
+@media screen and (max-width: 930px) {
+    nav .ham {
+        display: initial;
+    }
+    .click {
+        top: 46px;
+    }
+    .click span {
+        position: absolute;
+        margin-top: 12px;
+    }
+    .click span:first-child {
+        transform: rotate(-40deg);
+    }
+    .click span:ntn-child(2) {
+        opacity: 0;
+        margin: 0;
+    }
+    .click span:last-child {
+        transform: rotate(40deg);
+        top: 0;
+    }
+    nav .nav-list {
+        position: absolute;
+        top: 90px;
+        right: 0;
+        bottom: 0;
+        width: 60%;
+        height: 50%;
+        background: black;
+        z-index: 2;
+        padding: 6% 9%;
+        transition: .3s right;
+        border-radius: 10px;
+    }
+    nav .nav-list li {
+        display: block;
+    }
+    nav .nav-list li a {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    nav .nav-list li.btn a {
+        position: absolute;
+        bottom: 0%;
+        right: 20%;
+        left: 20%;
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    nav .nav-list.open {
+        right: 0;
+    }
 }
