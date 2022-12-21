@@ -9,18 +9,235 @@
 </head>
 
 <body>
-    </section>
-    <!-- Home Section End -->
-    <!-- About Section Start -->
     <section class="about section">
         <div class="container">
             <div class="row">
-                <div class="section-title">
+                <div class="section-title padd-15">
                     <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-content padd-15">
+                    <div class="row">
+                        <div class="about-text padd-15">
+                            <h3>I'm Rezo Xuchua and <span>Web Developer</span></h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta odit ducimus, velit ipsa maxime repudiandae laborum, doloremque quaerat dicta vel odio dolore at iure suscipit impedit, facilis a commodi cumque nostrum provident?
+                                Nisi itaque enim consequatur commodi eaque unde iusto quisquam totam consectetur velit repudiandae molestias accusamus magni a voluptatem blanditiis, alias nulla eligendi ex.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="personal-info padd-15">
+                            <div class="row">
+                                <div class="info-item padd-15">
+                                    <p>Birthday : <span>5 oct 2001</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Age : <span>21</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Website : <span>www.domain.com</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Email : <span>Example@mail.com</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Degree : <span>CS</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Phone : <span>+995 568 89 04 62</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>City : <span>Samtredia</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Freelance : <span>Available</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="buttons padd-15">
+                                    <a href="#" class="btn">Download CV</a>
+                                    <a href="#" class="btn">Hire Me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills padd-15">
+                            <div class="row">
+                                <div class="skill-item padd-15">
+                                    <h5>JS</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 36%;"></div>
+                                        <div class="skill-percent">36%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>C++</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 76%;"></div>
+                                        <div class="skill-percent">76%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>Bootstrap</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 76%;"></div>
+                                        <div class="skill-percent">76%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>HTML</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 96%;"></div>
+                                        <div class="skill-percent">96%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="education">
+                            <h3 class="title">Education</h3>
+                        </div>
+                        <div class="experience">
+                            <h3 class="title">Experience</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Clicker+Script@family=Poppins:wght@200;300;400;500;600;700&display=swap");
+        :root {
+            --bg-black-900: #f2f2fc;
+            --bg-black-100: #fdf9ff;
+            --bg-black-50: #e8dfec;
+            --text-black-900: #302e4d;
+            --text-black-700: #504e70;
+        }
+        
+        .about .about-content {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        
+        .about .about-content .about-text {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        
+        .about .about-content .about-text h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: 700;
+            color: var(--text-black-900);
+        }
+        
+        .about .about-content .about-text h3 span {
+            color: var(--skin-color);
+        }
+        
+        .about .about-content .about-text p {
+            font-size: 16px;
+            line-height: 25px;
+            color: var(--text-black-700);
+        }
+        
+        .about .about-content .personal-info {
+            flex: 0 0 60%;
+            max-width: 60%;
+            margin-top: 40px;
+        }
+        
+        .about .about-content .personal-info .info-item {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        
+        .about .about-content .personal-info .info-item p {
+            font-weight: 600;
+            padding: 10px 0;
+            font-size: 16px;
+            color: var(--text-black-900);
+            border-bottom: 1px solid var(--bg-black-50);
+        }
+        
+        .about .about-content .personal-info .info-item p span {
+            font-weight: 400;
+            color: var(--text-black-700);
+            margin-left: 4px;
+            display: inline-block;
+        }
+        
+        .about .about-content .personal-info .buttons {
+            margin-top: 30px;
+        }
+        
+        .about .about-content .personal-info .buttons .btn {
+            margin-right: 15px;
+            margin-top: 10px;
+        }
+        
+        .about .about-content .skills {
+            flex: 0 0 40%;
+            max-width: 40%;
+            margin-top: 40px;
+        }
+        
+        .about .about-content .skills .skill-item {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        
+        .about .about-content .skills .skill-item h5 {
+            line-height: 40px;
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--text-black-900);
+            text-transform: capitalize;
+        }
+        
+        .about .about-content .skills .skill-item .progress {
+            background-color: var(--bg-black-50);
+            height: 7px;
+            border-radius: 4px;
+            width: 100%;
+            position: relative;
+        }
+        
+        .about .about-content .skills .skill-item {
+            margin-bottom: 30px;
+        }
+        
+        .about .about-content .skills .skill-item .progress .progress-in {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            border-radius: 4px;
+            background-color: var(--skin-color);
+        }
+        
+        .about .about-content .skills .skill-item .skill-percent {
+            position: absolute;
+            right: 0;
+            color: var(--text-black-900);
+            top: -40px;
+            font-weight: 400;
+            line-height: 40px;
+        }
+        
+        .about .about-content .education,
+        .about .about-content .experience {
+            flex: 0 0 50%;
+            max-width: 50%;
+            margin-top: 30px;
+            background-color: red;
+        }
+        
+        .about .about-content .experience {
+            background-color: rosybrown;
+        }
+    </style>
 </body>
 
 </html>
