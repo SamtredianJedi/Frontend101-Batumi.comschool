@@ -5,239 +5,607 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./src/styles/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <title>Rezo Xuchua</title>
 </head>
 
 <body>
-    <section class="about section">
-        <div class="container">
-            <div class="row">
-                <div class="section-title padd-15">
-                    <h2>About Me</h2>
-                </div>
+    <!-- Main Container Start-->
+
+    <div class="main-container">
+        <!-- Aside Start-->
+
+        <div class="aside">
+
+            <div class="logo">
+                <a href="#"><span>R</span>ezo.X</a>
             </div>
-            <div class="row">
-                <div class="about-content padd-15">
-                    <div class="row">
-                        <div class="about-text padd-15">
-                            <h3>I'm Rezo Xuchua and <span>Web Developer</span></h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta odit ducimus, velit ipsa maxime repudiandae laborum, doloremque quaerat dicta vel odio dolore at iure suscipit impedit, facilis a commodi cumque nostrum provident?
-                                Nisi itaque enim consequatur commodi eaque unde iusto quisquam totam consectetur velit repudiandae molestias accusamus magni a voluptatem blanditiis, alias nulla eligendi ex.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="personal-info padd-15">
-                            <div class="row">
-                                <div class="info-item padd-15">
-                                    <p>Birthday : <span>5 oct 2001</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Age : <span>21</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Website : <span>www.domain.com</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Email : <span>Example@mail.com</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Degree : <span>CS</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Phone : <span>+995 568 89 04 62</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>City : <span>Samtredia</span></p>
-                                </div>
-                                <div class="info-item padd-15">
-                                    <p>Freelance : <span>Available</span></p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="buttons padd-15">
-                                    <a href="#" class="btn">Download CV</a>
-                                    <a href="#" class="btn">Hire Me</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skills padd-15">
-                            <div class="row">
-                                <div class="skill-item padd-15">
-                                    <h5>JS</h5>
-                                    <div class="progress">
-                                        <div class="progress-in" style="width: 36%;"></div>
-                                        <div class="skill-percent">36%</div>
-                                    </div>
-                                </div>
-                                <div class="skill-item padd-15">
-                                    <h5>C++</h5>
-                                    <div class="progress">
-                                        <div class="progress-in" style="width: 76%;"></div>
-                                        <div class="skill-percent">76%</div>
-                                    </div>
-                                </div>
-                                <div class="skill-item padd-15">
-                                    <h5>Bootstrap</h5>
-                                    <div class="progress">
-                                        <div class="progress-in" style="width: 76%;"></div>
-                                        <div class="skill-percent">76%</div>
-                                    </div>
-                                </div>
-                                <div class="skill-item padd-15">
-                                    <h5>HTML</h5>
-                                    <div class="progress">
-                                        <div class="progress-in" style="width: 96%;"></div>
-                                        <div class="skill-percent">96%</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="education">
-                            <h3 class="title">Education</h3>
-                        </div>
-                        <div class="experience">
-                            <h3 class="title">Experience</h3>
-                        </div>
-                    </div>
-                </div>
+            <div class="nav-toggler">
+                <span></span>
             </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
         </div>
-    </section>
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Clicker+Script@family=Poppins:wght@200;300;400;500;600;700&display=swap");
-        :root {
-            --bg-black-900: #f2f2fc;
-            --bg-black-100: #fdf9ff;
-            --bg-black-50: #e8dfec;
-            --text-black-900: #302e4d;
-            --text-black-700: #504e70;
-        }
-        
-        .about .about-content {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
-        
-        .about .about-content .about-text {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
-        
-        .about .about-content .about-text h3 {
-            font-size: 24px;
-            margin-bottom: 15px;
-            font-weight: 700;
-            color: var(--text-black-900);
-        }
-        
-        .about .about-content .about-text h3 span {
-            color: var(--skin-color);
-        }
-        
-        .about .about-content .about-text p {
-            font-size: 16px;
-            line-height: 25px;
-            color: var(--text-black-700);
-        }
-        
-        .about .about-content .personal-info {
-            flex: 0 0 60%;
-            max-width: 60%;
-            margin-top: 40px;
-        }
-        
-        .about .about-content .personal-info .info-item {
-            flex: 0 0 50%;
-            max-width: 50%;
-        }
-        
-        .about .about-content .personal-info .info-item p {
-            font-weight: 600;
-            padding: 10px 0;
-            font-size: 16px;
-            color: var(--text-black-900);
-            border-bottom: 1px solid var(--bg-black-50);
-        }
-        
-        .about .about-content .personal-info .info-item p span {
-            font-weight: 400;
-            color: var(--text-black-700);
-            margin-left: 4px;
-            display: inline-block;
-        }
-        
-        .about .about-content .personal-info .buttons {
-            margin-top: 30px;
-        }
-        
-        .about .about-content .personal-info .buttons .btn {
-            margin-right: 15px;
-            margin-top: 10px;
-        }
-        
-        .about .about-content .skills {
-            flex: 0 0 40%;
-            max-width: 40%;
-            margin-top: 40px;
-        }
-        
-        .about .about-content .skills .skill-item {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
-        
-        .about .about-content .skills .skill-item h5 {
-            line-height: 40px;
-            font-weight: 600;
-            font-size: 16px;
-            color: var(--text-black-900);
-            text-transform: capitalize;
-        }
-        
-        .about .about-content .skills .skill-item .progress {
-            background-color: var(--bg-black-50);
-            height: 7px;
-            border-radius: 4px;
-            width: 100%;
-            position: relative;
-        }
-        
-        .about .about-content .skills .skill-item {
-            margin-bottom: 30px;
-        }
-        
-        .about .about-content .skills .skill-item .progress .progress-in {
-            position: absolute;
-            left: 0;
-            top: 0;
-            height: 100%;
-            border-radius: 4px;
-            background-color: var(--skin-color);
-        }
-        
-        .about .about-content .skills .skill-item .skill-percent {
-            position: absolute;
-            right: 0;
-            color: var(--text-black-900);
-            top: -40px;
-            font-weight: 400;
-            line-height: 40px;
-        }
-        
-        .about .about-content .education,
-        .about .about-content .experience {
-            flex: 0 0 50%;
-            max-width: 50%;
-            margin-top: 30px;
-            background-color: red;
-        }
-        
-        .about .about-content .experience {
-            background-color: rosybrown;
-        }
-    </style>
+
+        <!-- Aside End-->
+        <!-- Main Content Start-->
+
+        <div class="main-content">
+            <!-- Home Section start -->
+
+            <section class="home section">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info">
+                            <h3 class="hello">Hello, My name is <span class="name">Rezo Xuchua</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Web Developer</span></h3>
+                            <p>I'm a Programmer, Computer Sciense student With extensive 2 years of experience My expertise is to create websites and develop applications on java, C++, Javascript and C#
+                            </p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img ">
+                            <img src="./src/images/lessgo1.jpg" alt="Rezo Xuchua">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Home Section End -->
+            <!-- About Section Start -->
+            </section>
+            <!-- Home Section End -->
+            <!-- About Section Start -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Rezo Xuchua <span>Web Developer</span></h3>
+                                    <p>I'm very motivated to learn everything new, and putting all effort in it, new day is new adventure and its never ends, also our tryings never ending without a purpose, we dont lose when we are bad at something we lose
+                                        when we give up on it we try hard play smart and move fast to our goals some day it will have point it has a point till we beilive in ourselves.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday : <span>5 oct 2001</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>21</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Website : <span>www.domain.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>Example@mail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree : <span>CS</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>+995 568 89 04 62</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City : <span>Samtredia</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Freelance : <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#" class="btn">Download CV</a>
+                                            <a href="#" class="btn">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 36%;"></div>
+                                                <div class="skill-percent">36%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Bootstrap</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 76%;"></div>
+                                                <div class="skill-percent">76%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 96%;"></div>
+                                                <div class="skill-percent">96%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education">
+                                    <h3 class="title">Education</h3>
+                                </div>
+                                <div class="experience">
+                                    <h3 class="title">Experience</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Section End -->
+        </div>
+
+        <!-- Main Content End -->
+    </div>
+
+
+    <!-- Main Container End-->
+
+    <!-- JS Files -->
+    <script src="./script.js"></script>
+
 </body>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Clicker+Script@family=Poppins:wght@200;300;400;500;600;700&display=swap");
+     :root {
+        --bg-black-900: #f2f2fc;
+        --bg-black-100: #fdf9ff;
+        --bg-black-50: #e8dfec;
+        --text-black-900: #302e4d;
+        --text-black-700: #504e70;
+    }
+    
+    body {
+        line-height: 1.5;
+        font-size: 16px;
+        font-family: "Poppins" sans-serif;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    
+     ::before,
+     ::after {
+        box-sizing: border-box;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .section {
+        background: var(--bg-black-900);
+        min-height: 100vh;
+        display: flex;
+        position: fixed;
+        left: 270px;
+        padding: 0 30px;
+        top: 0;
+        right: 0;
+        z-index: 0;
+        opacity: 1;
+    }
+    
+    .hidden {
+        display: none !important;
+    }
+    
+    .main-content {
+        padding-left: 270px;
+    }
+    
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .container {
+        max-width: 1100px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .section .container {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    
+    .section-title {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 120px;
+    }
+    
+    .section-title h2 {
+        font-size: 40px;
+        color: var(--text-black-900);
+        font-weight: 700;
+        position: absolute;
+    }
+    
+    .section-title h2::before {
+        content: '';
+        height: 4px;
+        width: 50px;
+        background-color: var(--skin-color);
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    
+    .section-title h2::after {
+        content: '';
+        height: 4px;
+        width: 25px;
+        background-color: var(--skin-color);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin-top: 8px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+        position: relative;
+    }
+    
+    .btn {
+        font-size: 16px;
+        font-size: 500;
+        padding: 12px 35px;
+        color: white;
+        border-radius: 40px;
+        display: inline-block;
+        white-space: nowrap;
+        border: none;
+        background: var(--skin-color);
+        transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+        transform: scale(1.05);
+    }
+    /* aside */
+    
+    .aside {
+        width: 270px;
+        background: var(--bg-black-100);
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 30px;
+        height: 100%;
+        border-right: 1px solid var(--bg-black-50);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+    
+    .aside .logo {
+        position: absolute;
+        top: 50px;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    
+    .aside .log a {
+        color: var(--text-black-900);
+        font-weight: 700;
+        padding: 15px 20px;
+        font-size: 30px;
+        letter-spacing: 5px;
+        position: relative;
+    }
+    
+    .aside .logo a span {
+        font-family: 'Clicker Script', cursive;
+        font-size: 40px;
+    }
+    
+    .aside .logo a::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-bottom: 5px solid var(--skin-color);
+        border-left: 5px solid var(--skin-color);
+        bottom: -7px;
+        left: -7px;
+    }
+    
+    .aside .logo a::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-top: 5px solid var(--skin-color);
+        border-right: 5px solid var(--skin-color);
+        top: -7px;
+        right: -7px;
+    }
+    
+    .aside .nav-toggler {
+        height: 40px;
+        width: 45px;
+        border: 1px solid var(--bg-black-50);
+        cursor: pointer;
+        position: fixed;
+        left: 300px;
+        top: 20px;
+        border-radius: 5px;
+        background: var(--bg-black-100);
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .aside .nav-toggler span {
+        height: 2px;
+        width: 18px;
+        background: var(--skin-color);
+        display: inline-block;
+        position: relative;
+    }
+    
+    .aside .nav-toggler span::before {
+        content: '';
+        height: 2px;
+        width: 18px;
+        background: var(--skin-color);
+        position: absolute;
+        top: -6px;
+        left: 0;
+    }
+    
+    .aside .nav-toggler span::after {
+        content: '';
+        height: 2px;
+        width: 18px;
+        background: var(--skin-color);
+        position: absolute;
+        top: 6px;
+        left: 0;
+    }
+    
+    .aside .nav {
+        margin-top: 100px;
+    }
+    
+    .aside .nav li {
+        margin-bottom: 20px;
+        display: block;
+    }
+    
+    .aside .nav li a {
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        border-bottom: 1px solid var(--bg-black-50);
+        color: var(--text-black-900);
+        padding: 5px 15px;
+    }
+    
+    .aside .nav li a.active {
+        color: var(--skin-color);
+    }
+    
+    .aside .nav li a i {
+        margin-right: 15px;
+    }
+    /* home */
+    
+    .home {
+        min-height: 100vh;
+        display: flex;
+        color: var(--text-black-900);
+    }
+    
+    .home .home-info {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    
+    h3.hello {
+        font-size: 28px;
+        margin: 15px 0;
+    }
+    
+    h3.hello span {
+        font-family: 'Clicker Script', cursive;
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--skin-color)
+    }
+    
+    h3.my-profession {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    
+    .typing {
+        color: var(--skin-color)
+    }
+    
+    .home-info p {
+        margin-bottom: 70px;
+        font-size: 20px;
+        color: var(--text-black-700);
+    }
+    
+    .home .home img {
+        flex: 0 0 40%;
+        max-width: 40%;
+        text-align: center;
+        position: relative;
+    }
+    
+    .home .home-img img {
+        margin: auto;
+        border-radius: 5px;
+        height: 400px;
+    }
+    /* About */
+    
+    .about .about-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .about .about-content .about-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .about .about-content .about-text h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        font-weight: 700;
+        color: var(--text-black-900);
+    }
+    
+    .about .about-content .about-text h3 span {
+        color: var(--skin-color);
+    }
+    
+    .about .about-content .about-text p {
+        font-size: 16px;
+        line-height: 25px;
+        color: var(--text-black-700);
+    }
+    
+    .about .about-content .personal-info {
+        flex: 0 0 60%;
+        max-width: 60%;
+        margin-top: 40px;
+    }
+    
+    .about .about-content .personal-info .info-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .about .about-content .personal-info .info-item p {
+        font-weight: 600;
+        padding: 10px 0;
+        font-size: 16px;
+        color: var(--text-black-900);
+        border-bottom: 1px solid var(--bg-black-50);
+    }
+    
+    .about .about-content .personal-info .info-item p span {
+        font-weight: 400;
+        color: var(--text-black-700);
+        margin-left: 4px;
+        display: inline-block;
+    }
+    
+    .about .about-content .personal-info .buttons {
+        margin-top: 30px;
+    }
+    
+    .about .about-content .personal-info .buttons .btn {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    
+    .about .about-content .skills {
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin-top: 20px;
+    }
+    
+    .about .about-content .skills .skill-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .about .about-content .skills .skill-item h5 {
+        line-height: 40px;
+        font-weight: 600;
+        font-size: 16px;
+        color: var(--text-black-900);
+        text-transform: capitalize;
+    }
+    
+    .about .about-content .skills .skill-item .progress {
+        background-color: var(--bg-black-50);
+        height: 7px;
+        border-radius: 4px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .about .about-content .skills .skill-item {
+        margin-bottom: 30px;
+    }
+    
+    .about .about-content .skills .skill-item .progress .progress-in {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        border-radius: 4px;
+        background-color: var(--skin-color);
+    }
+    
+    .about .about-content .skills .skill-item .skill-percent {
+        position: absolute;
+        right: 0;
+        color: var(--text-black-900);
+        top: -40px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    
+    .about .about-content .education,
+    .about .about-content .experience {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 30px;
+        background-color: red;
+    }
+    
+    .about .about-content .experience {
+        background-color: rosybrown;
+    }
+</style>
 
 </html>

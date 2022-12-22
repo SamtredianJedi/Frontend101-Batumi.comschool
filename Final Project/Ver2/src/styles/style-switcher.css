@@ -1,0 +1,60 @@
+.style-switcher {
+    position: fixed;
+    right: 0;
+    top: -5px;
+    padding: 15px;
+    width: 80px;
+    background: var(--bg-black-100);
+    z-index: 101;
+    transition: all 0.3s ease;
+}
+
+.style-switcher.open {
+    transform: translateX(-25px);
+}
+
+.style-switcher .s-icon {
+    justify-content: space-around;
+    font-size: 20px;
+    background: var(--bg-black-100);
+    color: var(--text-black-900);
+    right: 100%;
+    border: 1px solid var(--bg-black-50);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.style-switcher .colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.style-switcher .colors span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.style-switcher .color-1 {
+    background: #ec1839;
+}
+
+.style-switcher .color-2 {
+    background: #fa5b0f;
+}
+
+.style-switcher .color-3 {
+    background: #37b182;
+}
+
+.style-switcher .color-4 {
+    background: #1854b4;
+}
+
+.style-switcher .color-5 {
+    background: #f021b2;
+}

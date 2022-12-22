@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./src/styles/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <title>Rezo Xuchua</title>
+</head>
+
+<body>
+    <!-- Main Container Start-->
+
+    <div class="main-container">
+        <!-- Aside Start-->
+
+        <div class="aside">
+
+            <div class="logo">
+                <a href="#"><span>R</span>ezo.X</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+
+            </ul>
+        </div>
+
+
+        <!-- Aside End-->
+        <!-- Main Content Start-->
+
+        <div class="main-content">
+            <!-- Home Section start -->
+
+            <section class="home section">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info">
+                            <h3 class="hello">Hello, My name is <span class="name">Rezo Xuchua</span></h3>
+                            <h3 class="my-profession">I'm a <span class="typing">Web Developer</span></h3>
+                            <p>I'm a Programmer, Computer Sciense student With extensive 2 years of experience My expertise is to create websites and develop applications on java, C++, Javascript and C#
+                            </p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img ">
+                            <img src="./src/images/lessgo1.jpg" alt="Rezo Xuchua">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Home Section End -->
+            <!-- About Section Start -->
+            </section>
+            <!-- Home Section End -->
+            <!-- About Section Start -->
+
+            <!-- About Section End -->
+            <!-- Service Section Start -->
+
+            <section class="service section" id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ==== Service item Start ====== -->
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Mobile Applications</h4>
+                                <p>One of the great features of our time is mobile applications they are so popular and useful </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Programming</h4>
+                                <p>I'm quite sure thar my practise skills is enough to starting developing applications, or to try something new</p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>I'm absolutely New in a web design so im practising and improving my skills in a figma </p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Coding</h4>
+                                <p>Coding is not just a hobby its a lifestyle, more you practise it more interesting its becomes</p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Stalking</h4>
+                                <p>In my opinion Stalking information and googling is one of the primary ability of a programmer</p>
+                            </div>
+                        </div>
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Discipline</h4>
+                                <p>One of the noticable things is loving your job and what are you good in, also its will be better to do it everyday</p>
+                            </div>
+                        </div>
+                        <!-- ==== Service item End ====== -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Service Section End -->
+        </div>
+
+        <!-- Main Content End -->
+    </div>
+
+
+    <!-- Main Container End-->
+
+    <!-- JS Files -->
+    <script src="./script.js"></script>
+
+    <style>
+        /* service */
+        
+        .service .container {
+            padding-top: 40px;
+        }
+        
+        .service .service-item {
+            margin-bottom: 50px;
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+        }
+        
+        .service .service-item .service-item-inner {
+            background-color: var(--bg-black-100);
+            border: 1px solid var(--bg-black-50);
+            border-radius: 10px;
+            padding: 30px 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .service .service-item .service-item-inner:hover {
+            box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+        }
+        
+        .service .service-item .service-item-inner .icon .fa {
+            font-size: 20px;
+            line-height: 30px;
+            color: var(--skin-color);
+            transition: all 0.3s ease;
+        }
+        
+        .service .service-item .service-item-inner:hover .icon {
+            background: var(--skin-color);
+        }
+        
+        .service .service-item .service-item-inner:hover .icon .fa {
+            font-size: 25px;
+            color: #ffff;
+        }
+        
+        .service .service-item .service-item-inner p {
+            font-size: 16px;
+            color: var(--text-black-700);
+            line-height: 25px;
+        }
+    </style>
+
+</body>
+
+</html>
